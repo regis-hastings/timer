@@ -7,8 +7,12 @@ class Timer {
 		this.startButton.addEventListener('click', this.start);
 	}
 
-	start() {
-		console.log('Time to start the timer!');
+	start = () => {
+		this.importantMethodToCall();
+	};
+
+	importantMethodToCall() {
+		console.log('Important thing was done!!!');
 	}
 }
 
